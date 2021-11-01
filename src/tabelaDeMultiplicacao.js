@@ -10,8 +10,7 @@ function tabelaMultiplicacao(num){
       
       }
       }
-      
+      console.table(meuArray)
       return meuArray
       }
-      console.table(tabelaMultiplicacao(12));
-}
+      tabelaMultiplicacao(5);
